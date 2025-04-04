@@ -1,0 +1,11 @@
+@import "tailwindcss";
+body {
+  background-color: #113; /* dark navy blue */
+  color: #fff;            /* white text */
+  background-image: radial-gradient(
+    at 50% 50%,            /* center of the screen */
+    #226 20%,              /* lighter blue in the middle */
+    transparent 100%       /* fades out to transparent */
+  );
+  height: 100vh;          /* full viewport height */
+}

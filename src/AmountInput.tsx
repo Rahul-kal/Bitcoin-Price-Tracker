@@ -9,7 +9,6 @@ export default function AmountInput(props:InputProps) {
         value={props.value}
         onChange={props.onChange} />
         <span className="text-white/50 px-3 text-xl">USD</span>
-
     </div>
     );
 }

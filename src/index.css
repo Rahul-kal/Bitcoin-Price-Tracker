@@ -9,3 +9,16 @@ body {
   );
   height: 100vh;          /* full viewport height */
 }
+
+@keyframes from-left-to-right {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.skeleton-animation {
+  animation: from-left-to-right 2s infinite linear;
+}
